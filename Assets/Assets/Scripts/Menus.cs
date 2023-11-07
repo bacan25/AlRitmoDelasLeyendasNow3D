@@ -22,11 +22,7 @@ public class Menus : MonoBehaviour
         SceneLoader.Instance.LoadScene("Level_1_Android"); // Cambia a la escena del nivel 1
     }
 
-    public void ButtonRestart()
-    {
-        // Obtiene el nombre de la escena activa y recarga esa escena
-        SceneLoader.Instance.LoadScene(SceneManager.GetActiveScene().name); // Recarga la escena actual
-    }
+  
 
     public void ButtonMenu()
     {
