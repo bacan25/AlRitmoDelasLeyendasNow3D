@@ -1,12 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerInput : MonoBehaviour
 {
     public GameManager gameManager;
     public GameObject[] spawnPoints;
 
+    void Start()
+    {
+        for(int i = 0; i < Gamepad.all.Count; i++)
+        {
+            Debug.Log(Gamepad.all[i].name);
+        }
+    }
 
     void Update()
     {
@@ -24,18 +32,15 @@ public class PlayerInput : MonoBehaviour
 
     void CheckGamepadInput()
     {
+        // L2
+        if (Gamepad.all[0].leftTrigger.wasPressedThisFrame) CheckInput(0, "LeftTrigger", "FailTrigger");
+        // L1
+        if (Gamepad.all[0].leftShoulder.wasPressedThisFrame) CheckInput(2, "UpTrigger", "FailTrigger");
+        // R1
+        if (Gamepad.all[0].rightShoulder.wasPressedThisFrame) CheckInput(1, "DownTrigger", "FailTrigger");
+        // R2
+        if (Gamepad.all[0].rightTrigger.wasPressedThisFrame) CheckInput(3, "RightTrigger", "FailTrigger");
 
-        // L2 (Eje 3 en Unity) - Mover Izquierda
-        if (Input.GetAxis("JoystickAxis3") > 0.5f) CheckInput(0, "LeftTrigger", "FailTrigger");
-
-        // L1 (Button 4 en Unity) - Mover Arriba
-        if (Input.GetButtonDown("JoystickButton4")) CheckInput(2, "UpTrigger", "FailTrigger");
-
-        // R1 (Button 5 en Unity) - Mover Abajo
-        if (Input.GetButtonDown("JoystickButton5")) CheckInput(1, "DownTrigger", "FailTrigger");
-
-        // R2 (Eje 4 en Unity) - Mover Derecha
-        if (Input.GetAxis("JoystickAxis4") > 0.5f) CheckInput(3, "RightTrigger", "FailTrigger");
     }
 
     public void OnLeftButtonPressed() => CheckInput(0, "LeftTrigger", "FailTrigger");
