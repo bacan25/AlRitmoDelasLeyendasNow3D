@@ -1,0 +1,4 @@
+repository "AlRitmoDelasLeyendasNow3D@bacan25@cloud"
+  path "/"
+    br "/main"
+    co "/main"

@@ -1,0 +1,3164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6b6a1a8cda8bba47b648043b098b778, type: 3}
+  m_Name: Angels and Demons
+  m_EditorClassIdentifier: 
+  song:
+    Name: Angels and Demons
+    audioClip: {fileID: 0}
+    notes:
+    - time: 0.1
+      direction: 2
+    - time: 0.124
+      direction: 0
+    - time: 0.149
+      direction: 2
+    - time: 0.174
+      direction: 0
+    - time: 0.199
+      direction: 2
+    - time: 0.224
+      direction: 3
+    - time: 0.249
+      direction: 2
+    - time: 0.274
+      direction: 1
+    - time: 0.324
+      direction: 1
+    - time: 0.374
+      direction: 0
+    - time: 0.399
+      direction: 1
+    - time: 0.424
+      direction: 2
+    - time: 0.449
+      direction: 2
+    - time: 0.474
+      direction: 0
+    - time: 0.499
+      direction: 2
+    - time: 0.524
+      direction: 0
+    - time: 0.549
+      direction: 2
+    - time: 0.574
+      direction: 3
+    - time: 0.599
+      direction: 2
+    - time: 0.624
+      direction: 1
+    - time: 0.674
+      direction: 1
+    - time: 0.724
+      direction: 0
+    - time: 0.749
+      direction: 1
+    - time: 0.774
+      direction: 2
+    - time: 0.799
+      direction: 3
+    - time: 0.824
+      direction: 1
+    - time: 0.849
+      direction: 3
+    - time: 0.874
+      direction: 1
+    - time: 0.899
+      direction: 3
+    - time: 0.924
+      direction: 3
+    - time: 0.949
+      direction: 3
+    - time: 0.974
+      direction: 2
+    - time: 1.024
+      direction: 2
+    - time: 1.074
+      direction: 1
+    - time: 1.099
+      direction: 2
+    - time: 1.124
+      direction: 3
+    - time: 1.149
+      direction: 3
+    - time: 1.174
+      direction: 1
+    - time: 1.199
+      direction: 3
+    - time: 1.224
+      direction: 1
+    - time: 1.249
+      direction: 3
+    - time: 1.274
+      direction: 3
+    - time: 1.299
+      direction: 3
+    - time: 1.324
+      direction: 2
+    - time: 1.374
+      direction: 2
+    - time: 1.424
+      direction: 1
+    - time: 1.449
+      direction: 2
+    - time: 1.474
+      direction: 3
+    - time: 1.499
+      direction: 2
+    - time: 1.574
+      direction: 3
+    - time: 1.649
+      direction: 1
+    - time: 1.666
+      direction: 2
+    - time: 1.683
+      direction: 1
+    - time: 1.699
+      direction: 2
+    - time: 1.716
+      direction: 1
+    - time: 1.733
+      direction: 2
+    - time: 1.749
+      direction: 1
+    - time: 1.766
+      direction: 2
+    - time: 1.783
+      direction: 1
+    - time: 1.799
+      direction: 2
+    - time: 1.816
+      direction: 1
+    - time: 1.833
+      direction: 2
+    - time: 1.849
+      direction: 0
+    - time: 1.866
+      direction: 1
+    - time: 1.883
+      direction: 2
+    - time: 1.899
+      direction: 2
+    - time: 1.974
+      direction: 3
+    - time: 2.043
+      direction: 3
+    - time: 2.056
+      direction: 3
+    - time: 2.133
+      direction: 3
+    - time: 2.199
+      direction: 2
+    - time: 2.249
+      direction: 1
+    - time: 2.299
+      direction: 2
+    - time: 2.324
+      direction: 0
+    - time: 2.349
+      direction: 2
+    - time: 2.374
+      direction: 0
+    - time: 2.399
+      direction: 2
+    - time: 2.424
+      direction: 3
+    - time: 2.449
+      direction: 2
+    - time: 2.474
+      direction: 1
+    - time: 2.524
+      direction: 1
+    - time: 2.574
+      direction: 3
+    - time: 2.599
+      direction: 3
+    - time: 2.612
+      direction: 2
+    - time: 2.624
+      direction: 1
+    - time: 2.637
+      direction: 0
+    - time: 2.65
+      direction: 2
+    - time: 2.674
+      direction: 0
+    - time: 2.7
+      direction: 2
+    - time: 2.724
+      direction: 0
+    - time: 2.75
+      direction: 2
+    - time: 2.774
+      direction: 3
+    - time: 2.8
+      direction: 2
+    - time: 2.824
+      direction: 1
+    - time: 2.874
+      direction: 1
+    - time: 2.924
+      direction: 3
+    - time: 2.949
+      direction: 3
+    - time: 2.962
+      direction: 2
+    - time: 2.974
+      direction: 1
+    - time: 2.987
+      direction: 0
+    - time: 2.999
+      direction: 3
+    - time: 3.024
+      direction: 1
+    - time: 3.049
+      direction: 3
+    - time: 3.074
+      direction: 1
+    - time: 3.099
+      direction: 3
+    - time: 3.124
+      direction: 3
+    - time: 3.149
+      direction: 3
+    - time: 3.174
+      direction: 2
+    - time: 3.224
+      direction: 2
+    - time: 3.274
+      direction: 3
+    - time: 3.299
+      direction: 3
+    - time: 3.324
+      direction: 3
+    - time: 3.349
+      direction: 3
+    - time: 3.374
+      direction: 1
+    - time: 3.399
+      direction: 3
+    - time: 3.424
+      direction: 1
+    - time: 3.449
+      direction: 3
+    - time: 3.474
+      direction: 3
+    - time: 3.499
+      direction: 3
+    - time: 3.524
+      direction: 2
+    - time: 3.574
+      direction: 2
+    - time: 3.624
+      direction: 0
+    - time: 3.649
+      direction: 1
+    - time: 3.674
+      direction: 2
+    - time: 3.699
+      direction: 3
+    - time: 3.899
+      direction: 2
+    - time: 3.999
+      direction: 3
+    - time: 4.093
+      direction: 2
+    - time: 4.106
+      direction: 3
+    - time: 4.249
+      direction: 2
+    - time: 4.299
+      direction: 1
+    - time: 4.449
+      direction: 0
+    - time: 4.499
+      direction: 3
+    - time: 4.699
+      direction: 2
+    - time: 4.799
+      direction: 1
+    - time: 4.899
+      direction: 2
+    - time: 5.049
+      direction: 3
+    - time: 5.099
+      direction: 3
+    - time: 5.299
+      direction: 2
+    - time: 5.324
+      direction: 0
+    - time: 5.349
+      direction: 2
+    - time: 5.374
+      direction: 0
+    - time: 5.399
+      direction: 2
+    - time: 5.424
+      direction: 3
+    - time: 5.449
+      direction: 2
+    - time: 5.474
+      direction: 1
+    - time: 5.524
+      direction: 1
+    - time: 5.574
+      direction: 3
+    - time: 5.599
+      direction: 3
+    - time: 5.608
+      direction: 2
+    - time: 5.616
+      direction: 1
+    - time: 5.624
+      direction: 0
+    - time: 5.649
+      direction: 3
+    - time: 5.674
+      direction: 1
+    - time: 5.699
+      direction: 3
+    - time: 5.724
+      direction: 1
+    - time: 5.749
+      direction: 3
+    - time: 5.774
+      direction: 3
+    - time: 5.799
+      direction: 3
+    - time: 5.824
+      direction: 2
+    - time: 5.874
+      direction: 2
+    - time: 5.924
+      direction: 0
+    - time: 5.949
+      direction: 1
+    - time: 5.974
+      direction: 2
+    - time: 5.999
+      direction: 2
+    - time: 6.024
+      direction: 1
+    - time: 6.049
+      direction: 0
+    - time: 6.074
+      direction: 3
+    - time: 6.099
+      direction: 2
+    - time: 6.124
+      direction: 1
+    - time: 6.149
+      direction: 3
+    - time: 6.162
+      direction: 3
+    - time: 6.174
+      direction: 2
+    - time: 6.187
+      direction: 1
+    - time: 6.199
+      direction: 0
+    - time: 6.224
+      direction: 3
+    - time: 6.237
+      direction: 3
+    - time: 6.249
+      direction: 2
+    - time: 6.262
+      direction: 1
+    - time: 6.274
+      direction: 0
+    - time: 6.299
+      direction: 3
+    - time: 6.312
+      direction: 3
+    - time: 6.324
+      direction: 2
+    - time: 6.337
+      direction: 1
+    - time: 6.349
+      direction: 3
+    - time: 6.362
+      direction: 3
+    - time: 6.374
+      direction: 2
+    - time: 6.387
+      direction: 1
+    - time: 6.399
+      direction: 0
+    - time: 6.599
+      direction: 2
+    - time: 6.599
+      direction: 3
+    - time: 6.649
+      direction: 2
+    - time: 6.649
+      direction: 3
+    - time: 6.699
+      direction: 0
+    - time: 6.724
+      direction: 0
+    - time: 6.749
+      direction: 0
+    - time: 6.774
+      direction: 2
+    - time: 6.774
+      direction: 3
+    - time: 6.799
+      direction: 0
+    - time: 6.824
+      direction: 0
+    - time: 6.849
+      direction: 0
+    - time: 6.874
+      direction: 2
+    - time: 6.874
+      direction: 3
+    - time: 6.899
+      direction: 0
+    - time: 6.924
+      direction: 0
+    - time: 6.949
+      direction: 0
+    - time: 6.974
+      direction: 0
+    - time: 6.999
+      direction: 1
+    - time: 6.999
+      direction: 3
+    - time: 7.049
+      direction: 1
+    - time: 7.049
+      direction: 3
+    - time: 7.099
+      direction: 0
+    - time: 7.124
+      direction: 0
+    - time: 7.149
+      direction: 0
+    - time: 7.174
+      direction: 1
+    - time: 7.174
+      direction: 3
+    - time: 7.199
+      direction: 0
+    - time: 7.224
+      direction: 0
+    - time: 7.249
+      direction: 0
+    - time: 7.274
+      direction: 1
+    - time: 7.274
+      direction: 3
+    - time: 7.299
+      direction: 0
+    - time: 7.324
+      direction: 0
+    - time: 7.349
+      direction: 0
+    - time: 7.374
+      direction: 0
+    - time: 7.399
+      direction: 1
+    - time: 7.399
+      direction: 2
+    - time: 7.449
+      direction: 1
+    - time: 7.449
+      direction: 2
+    - time: 7.499
+      direction: 0
+    - time: 7.524
+      direction: 0
+    - time: 7.549
+      direction: 0
+    - time: 7.574
+      direction: 1
+    - time: 7.574
+      direction: 2
+    - time: 7.599
+      direction: 0
+    - time: 7.624
+      direction: 0
+    - time: 7.649
+      direction: 0
+    - time: 7.674
+      direction: 1
+    - time: 7.674
+      direction: 2
+    - time: 7.699
+      direction: 0
+    - time: 7.724
+      direction: 0
+    - time: 7.749
+      direction: 0
+    - time: 7.774
+      direction: 0
+    - time: 7.799
+      direction: 1
+    - time: 7.874
+      direction: 2
+    - time: 7.949
+      direction: 3
+    - time: 7.999
+      direction: 2
+    - time: 8.074
+      direction: 3
+    - time: 8.149
+      direction: 3
+    - time: 8.199
+      direction: 3
+    - time: 8.399
+      direction: 3
+    - time: 8.499
+      direction: 3
+    - time: 8.599
+      direction: 3
+    - time: 8.599
+      direction: 3
+    - time: 8.799
+      direction: 3
+    - time: 8.899
+      direction: 0
+    - time: 8.999
+      direction: 2
+    - time: 8.999
+      direction: 3
+    - time: 9.049
+      direction: 2
+    - time: 9.049
+      direction: 3
+    - time: 9.099
+      direction: 0
+    - time: 9.124
+      direction: 0
+    - time: 9.149
+      direction: 0
+    - time: 9.174
+      direction: 2
+    - time: 9.174
+      direction: 3
+    - time: 9.199
+      direction: 0
+    - time: 9.224
+      direction: 0
+    - time: 9.249
+      direction: 0
+    - time: 9.274
+      direction: 2
+    - time: 9.274
+      direction: 3
+    - time: 9.299
+      direction: 0
+    - time: 9.324
+      direction: 0
+    - time: 9.349
+      direction: 0
+    - time: 9.374
+      direction: 0
+    - time: 9.399
+      direction: 1
+    - time: 9.399
+      direction: 3
+    - time: 9.449
+      direction: 1
+    - time: 9.449
+      direction: 3
+    - time: 9.499
+      direction: 0
+    - time: 9.524
+      direction: 0
+    - time: 9.549
+      direction: 0
+    - time: 9.574
+      direction: 1
+    - time: 9.574
+      direction: 3
+    - time: 9.599
+      direction: 0
+    - time: 9.624
+      direction: 0
+    - time: 9.649
+      direction: 0
+    - time: 9.674
+      direction: 1
+    - time: 9.674
+      direction: 3
+    - time: 9.699
+      direction: 0
+    - time: 9.724
+      direction: 0
+    - time: 9.749
+      direction: 0
+    - time: 9.774
+      direction: 0
+    - time: 9.799
+      direction: 1
+    - time: 9.799
+      direction: 2
+    - time: 9.849
+      direction: 1
+    - time: 9.849
+      direction: 2
+    - time: 9.899
+      direction: 0
+    - time: 9.924
+      direction: 0
+    - time: 9.949
+      direction: 0
+    - time: 9.974
+      direction: 1
+    - time: 9.974
+      direction: 2
+    - time: 9.999
+      direction: 0
+    - time: 10.024
+      direction: 0
+    - time: 10.049
+      direction: 0
+    - time: 10.074
+      direction: 1
+    - time: 10.074
+      direction: 2
+    - time: 10.099
+      direction: 0
+    - time: 10.124
+      direction: 0
+    - time: 10.149
+      direction: 0
+    - time: 10.174
+      direction: 0
+    - time: 10.199
+      direction: 1
+    - time: 10.274
+      direction: 2
+    - time: 10.349
+      direction: 3
+    - time: 10.399
+      direction: 2
+    - time: 10.474
+      direction: 3
+    - time: 10.549
+      direction: 3
+    - time: 10.599
+      direction: 2
+    - time: 10.599
+      direction: 3
+    - time: 10.799
+      direction: 2
+    - time: 10.799
+      direction: 3
+    - time: 10.899
+      direction: 1
+    - time: 10.899
+      direction: 3
+    - time: 10.999
+      direction: 0
+    - time: 10.999
+      direction: 2
+    - time: 11.199
+      direction: 0
+    - time: 11.199
+      direction: 2
+    - time: 11.299
+      direction: 0
+    - time: 11.324
+      direction: 0
+    - time: 11.349
+      direction: 0
+    - time: 11.374
+      direction: 0
+    - time: 11.399
+      direction: 0
+    - time: 11.399
+      direction: 2
+    - time: 11.499
+      direction: 2
+    - time: 11.499
+      direction: 3
+    - time: 11.799
+      direction: 2
+    - time: 11.824
+      direction: 2
+    - time: 11.849
+      direction: 2
+    - time: 11.874
+      direction: 2
+    - time: 11.899
+      direction: 2
+    - time: 11.924
+      direction: 2
+    - time: 11.949
+      direction: 2
+    - time: 11.974
+      direction: 2
+    - time: 11.999
+      direction: 2
+    - time: 12.024
+      direction: 2
+    - time: 12.049
+      direction: 2
+    - time: 12.074
+      direction: 2
+    - time: 12.099
+      direction: 2
+    - time: 12.124
+      direction: 2
+    - time: 12.149
+      direction: 2
+    - time: 12.174
+      direction: 2
+    - time: 12.199
+      direction: 1
+    - time: 12.224
+      direction: 1
+    - time: 12.249
+      direction: 1
+    - time: 12.274
+      direction: 1
+    - time: 12.299
+      direction: 1
+    - time: 12.324
+      direction: 1
+    - time: 12.349
+      direction: 1
+    - time: 12.374
+      direction: 1
+    - time: 12.399
+      direction: 1
+    - time: 12.424
+      direction: 1
+    - time: 12.449
+      direction: 1
+    - time: 12.474
+      direction: 1
+    - time: 12.499
+      direction: 1
+    - time: 12.524
+      direction: 1
+    - time: 12.549
+      direction: 1
+    - time: 12.574
+      direction: 1
+    - time: 12.599
+      direction: 0
+    - time: 12.599
+      direction: 2
+    - time: 12.6
+      direction: 0
+    - time: 12.6
+      direction: 2
+    - time: 12.65
+      direction: 0
+    - time: 12.675
+      direction: 0
+    - time: 12.7
+      direction: 0
+    - time: 12.724
+      direction: 0
+    - time: 12.749
+      direction: 0
+    - time: 12.774
+      direction: 0
+    - time: 12.799
+      direction: 0
+    - time: 12.799
+      direction: 2
+    - time: 12.849
+      direction: 0
+    - time: 12.874
+      direction: 0
+    - time: 12.899
+      direction: 0
+    - time: 12.924
+      direction: 0
+    - time: 12.949
+      direction: 0
+    - time: 12.974
+      direction: 0
+    - time: 12.999
+      direction: 0
+    - time: 13.024
+      direction: 0
+    - time: 13.049
+      direction: 0
+    - time: 13.074
+      direction: 0
+    - time: 13.099
+      direction: 1
+    - time: 13.099
+      direction: 3
+    - time: 13.399
+      direction: 0
+    - time: 13.399
+      direction: 1
+    - time: 13.449
+      direction: 0
+    - time: 13.474
+      direction: 0
+    - time: 13.499
+      direction: 0
+    - time: 13.524
+      direction: 0
+    - time: 13.549
+      direction: 0
+    - time: 13.574
+      direction: 0
+    - time: 13.599
+      direction: 0
+    - time: 13.624
+      direction: 0
+    - time: 13.649
+      direction: 0
+    - time: 13.674
+      direction: 0
+    - time: 13.699
+      direction: 0
+    - time: 13.724
+      direction: 0
+    - time: 13.749
+      direction: 0
+    - time: 13.774
+      direction: 0
+    - time: 13.799
+      direction: 2
+    - time: 13.799
+      direction: 3
+    - time: 13.849
+      direction: 2
+    - time: 13.874
+      direction: 2
+    - time: 13.899
+      direction: 2
+    - time: 13.924
+      direction: 2
+    - time: 13.949
+      direction: 2
+    - time: 13.974
+      direction: 2
+    - time: 13.999
+      direction: 1
+    - time: 13.999
+      direction: 2
+    - time: 14.049
+      direction: 1
+    - time: 14.074
+      direction: 1
+    - time: 14.099
+      direction: 1
+    - time: 14.124
+      direction: 1
+    - time: 14.149
+      direction: 1
+    - time: 14.174
+      direction: 1
+    - time: 14.199
+      direction: 0
+    - time: 14.199
+      direction: 1
+    - time: 14.249
+      direction: 0
+    - time: 14.274
+      direction: 0
+    - time: 14.299
+      direction: 0
+    - time: 14.324
+      direction: 0
+    - time: 14.349
+      direction: 0
+    - time: 14.374
+      direction: 0
+    - time: 14.399
+      direction: 0
+    - time: 14.424
+      direction: 0
+    - time: 14.449
+      direction: 0
+    - time: 14.474
+      direction: 0
+    - time: 14.499
+      direction: 0
+    - time: 14.524
+      direction: 0
+    - time: 14.549
+      direction: 0
+    - time: 14.574
+      direction: 0
+    - time: 14.599
+      direction: 3
+    - time: 14.616
+      direction: 2
+    - time: 14.633
+      direction: 3
+    - time: 14.649
+      direction: 0
+    - time: 14.666
+      direction: 1
+    - time: 14.683
+      direction: 2
+    - time: 14.699
+      direction: 3
+    - time: 14.716
+      direction: 2
+    - time: 14.733
+      direction: 3
+    - time: 14.749
+      direction: 0
+    - time: 14.766
+      direction: 1
+    - time: 14.783
+      direction: 2
+    - time: 14.799
+      direction: 3
+    - time: 14.816
+      direction: 2
+    - time: 14.833
+      direction: 3
+    - time: 14.849
+      direction: 0
+    - time: 14.866
+      direction: 1
+    - time: 14.883
+      direction: 2
+    - time: 14.899
+      direction: 3
+    - time: 14.916
+      direction: 2
+    - time: 14.932
+      direction: 3
+    - time: 14.949
+      direction: 0
+    - time: 14.966
+      direction: 1
+    - time: 14.983
+      direction: 2
+    - time: 14.999
+      direction: 2
+    - time: 14.999
+      direction: 3
+    - time: 15.249
+      direction: 3
+    - time: 15.399
+      direction: 0
+    - time: 15.424
+      direction: 0
+    - time: 15.449
+      direction: 1
+    - time: 15.474
+      direction: 0
+    - time: 15.499
+      direction: 2
+    - time: 15.524
+      direction: 0
+    - time: 15.549
+      direction: 1
+    - time: 15.574
+      direction: 0
+    - time: 15.587
+      direction: 0
+    - time: 15.599
+      direction: 0
+    - time: 15.624
+      direction: 0
+    - time: 15.649
+      direction: 3
+    - time: 15.674
+      direction: 0
+    - time: 15.699
+      direction: 3
+    - time: 15.724
+      direction: 0
+    - time: 15.749
+      direction: 1
+    - time: 15.774
+      direction: 2
+    - time: 15.799
+      direction: 0
+    - time: 15.824
+      direction: 0
+    - time: 15.849
+      direction: 1
+    - time: 15.874
+      direction: 0
+    - time: 15.899
+      direction: 2
+    - time: 15.924
+      direction: 0
+    - time: 15.949
+      direction: 1
+    - time: 15.974
+      direction: 0
+    - time: 15.999
+      direction: 0
+    - time: 15.999
+      direction: 2
+    - time: 16.099
+      direction: 1
+    - time: 16.099
+      direction: 3
+    - time: 16.199
+      direction: 0
+    - time: 16.224
+      direction: 0
+    - time: 16.249
+      direction: 1
+    - time: 16.274
+      direction: 0
+    - time: 16.299
+      direction: 2
+    - time: 16.324
+      direction: 0
+    - time: 16.349
+      direction: 1
+    - time: 16.374
+      direction: 0
+    - time: 16.387
+      direction: 0
+    - time: 16.399
+      direction: 0
+    - time: 16.424
+      direction: 0
+    - time: 16.449
+      direction: 3
+    - time: 16.474
+      direction: 0
+    - time: 16.499
+      direction: 3
+    - time: 16.524
+      direction: 0
+    - time: 16.549
+      direction: 1
+    - time: 16.574
+      direction: 2
+    - time: 16.599
+      direction: 0
+    - time: 16.624
+      direction: 0
+    - time: 16.649
+      direction: 1
+    - time: 16.674
+      direction: 0
+    - time: 16.699
+      direction: 2
+    - time: 16.724
+      direction: 0
+    - time: 16.749
+      direction: 1
+    - time: 16.774
+      direction: 0
+    - time: 16.799
+      direction: 0
+    - time: 16.799
+      direction: 2
+    - time: 16.899
+      direction: 1
+    - time: 16.899
+      direction: 3
+    - time: 16.999
+      direction: 0
+    - time: 17.024
+      direction: 0
+    - time: 17.049
+      direction: 1
+    - time: 17.074
+      direction: 0
+    - time: 17.099
+      direction: 2
+    - time: 17.124
+      direction: 0
+    - time: 17.149
+      direction: 1
+    - time: 17.174
+      direction: 0
+    - time: 17.187
+      direction: 0
+    - time: 17.199
+      direction: 0
+    - time: 17.224
+      direction: 0
+    - time: 17.249
+      direction: 3
+    - time: 17.274
+      direction: 0
+    - time: 17.299
+      direction: 3
+    - time: 17.324
+      direction: 0
+    - time: 17.349
+      direction: 1
+    - time: 17.374
+      direction: 2
+    - time: 17.399
+      direction: 0
+    - time: 17.424
+      direction: 0
+    - time: 17.449
+      direction: 1
+    - time: 17.474
+      direction: 0
+    - time: 17.499
+      direction: 2
+    - time: 17.524
+      direction: 0
+    - time: 17.549
+      direction: 1
+    - time: 17.574
+      direction: 0
+    - time: 17.599
+      direction: 0
+    - time: 17.599
+      direction: 2
+    - time: 17.699
+      direction: 1
+    - time: 17.699
+      direction: 3
+    - time: 17.799
+      direction: 0
+    - time: 17.824
+      direction: 0
+    - time: 17.849
+      direction: 1
+    - time: 17.874
+      direction: 0
+    - time: 17.899
+      direction: 2
+    - time: 17.924
+      direction: 0
+    - time: 17.949
+      direction: 1
+    - time: 17.974
+      direction: 0
+    - time: 17.987
+      direction: 0
+    - time: 17.999
+      direction: 0
+    - time: 18.024
+      direction: 0
+    - time: 18.049
+      direction: 3
+    - time: 18.074
+      direction: 0
+    - time: 18.099
+      direction: 3
+    - time: 18.124
+      direction: 0
+    - time: 18.149
+      direction: 1
+    - time: 18.174
+      direction: 2
+    - time: 18.199
+      direction: 0
+    - time: 18.224
+      direction: 0
+    - time: 18.249
+      direction: 1
+    - time: 18.274
+      direction: 0
+    - time: 18.299
+      direction: 2
+    - time: 18.324
+      direction: 0
+    - time: 18.349
+      direction: 1
+    - time: 18.374
+      direction: 0
+    - time: 18.399
+      direction: 3
+    - time: 18.412
+      direction: 3
+    - time: 18.424
+      direction: 2
+    - time: 18.437
+      direction: 1
+    - time: 18.449
+      direction: 0
+    - time: 18.474
+      direction: 3
+    - time: 18.487
+      direction: 3
+    - time: 18.499
+      direction: 3
+    - time: 18.512
+      direction: 3
+    - time: 18.524
+      direction: 2
+    - time: 18.537
+      direction: 1
+    - time: 18.549
+      direction: 0
+    - time: 18.599
+      direction: 1
+    - time: 18.624
+      direction: 1
+    - time: 18.649
+      direction: 3
+    - time: 18.674
+      direction: 1
+    - time: 18.699
+      direction: 3
+    - time: 18.724
+      direction: 1
+    - time: 18.749
+      direction: 3
+    - time: 18.774
+      direction: 3
+    - time: 18.799
+      direction: 1
+    - time: 18.824
+      direction: 1
+    - time: 18.849
+      direction: 3
+    - time: 18.874
+      direction: 1
+    - time: 18.899
+      direction: 2
+    - time: 18.924
+      direction: 1
+    - time: 18.949
+      direction: 3
+    - time: 18.974
+      direction: 2
+    - time: 18.999
+      direction: 1
+    - time: 19.024
+      direction: 1
+    - time: 19.049
+      direction: 3
+    - time: 19.074
+      direction: 1
+    - time: 19.099
+      direction: 3
+    - time: 19.124
+      direction: 1
+    - time: 19.149
+      direction: 3
+    - time: 19.199
+      direction: 0
+    - time: 19.224
+      direction: 1
+    - time: 19.237
+      direction: 1
+    - time: 19.249
+      direction: 2
+    - time: 19.274
+      direction: 3
+    - time: 19.299
+      direction: 3
+    - time: 19.324
+      direction: 2
+    - time: 19.349
+      direction: 3
+    - time: 19.374
+      direction: 1
+    - time: 19.399
+      direction: 2
+    - time: 19.424
+      direction: 0
+    - time: 19.449
+      direction: 1
+    - time: 19.474
+      direction: 0
+    - time: 19.499
+      direction: 1
+    - time: 19.524
+      direction: 1
+    - time: 19.549
+      direction: 2
+    - time: 19.574
+      direction: 2
+    - time: 19.574
+      direction: 3
+    - time: 19.599
+      direction: 1
+    - time: 19.624
+      direction: 1
+    - time: 19.649
+      direction: 3
+    - time: 19.674
+      direction: 1
+    - time: 19.699
+      direction: 3
+    - time: 19.724
+      direction: 1
+    - time: 19.749
+      direction: 3
+    - time: 19.774
+      direction: 3
+    - time: 19.799
+      direction: 1
+    - time: 19.824
+      direction: 1
+    - time: 19.849
+      direction: 3
+    - time: 19.874
+      direction: 1
+    - time: 19.899
+      direction: 2
+    - time: 19.924
+      direction: 1
+    - time: 19.949
+      direction: 3
+    - time: 19.974
+      direction: 2
+    - time: 19.999
+      direction: 1
+    - time: 20.024
+      direction: 1
+    - time: 20.049
+      direction: 3
+    - time: 20.074
+      direction: 1
+    - time: 20.099
+      direction: 3
+    - time: 20.124
+      direction: 1
+    - time: 20.149
+      direction: 3
+    - time: 20.199
+      direction: 0
+    - time: 20.224
+      direction: 1
+    - time: 20.237
+      direction: 1
+    - time: 20.249
+      direction: 2
+    - time: 20.274
+      direction: 3
+    - time: 20.299
+      direction: 3
+    - time: 20.324
+      direction: 2
+    - time: 20.349
+      direction: 3
+    - time: 20.374
+      direction: 1
+    - time: 20.399
+      direction: 2
+    - time: 20.424
+      direction: 0
+    - time: 20.449
+      direction: 1
+    - time: 20.474
+      direction: 0
+    - time: 20.499
+      direction: 1
+    - time: 20.524
+      direction: 1
+    - time: 20.549
+      direction: 1
+    - time: 20.549
+      direction: 2
+    - time: 20.599
+      direction: 2
+    - time: 20.599
+      direction: 3
+    - time: 20.624
+      direction: 2
+    - time: 20.624
+      direction: 3
+    - time: 20.674
+      direction: 2
+    - time: 20.674
+      direction: 3
+    - time: 20.699
+      direction: 1
+    - time: 20.699
+      direction: 3
+    - time: 20.749
+      direction: 1
+    - time: 20.749
+      direction: 3
+    - time: 20.774
+      direction: 1
+    - time: 20.774
+      direction: 2
+    - time: 20.824
+      direction: 1
+    - time: 20.824
+      direction: 2
+    - time: 20.849
+      direction: 0
+    - time: 20.849
+      direction: 2
+    - time: 20.899
+      direction: 3
+    - time: 20.912
+      direction: 3
+    - time: 20.924
+      direction: 2
+    - time: 20.937
+      direction: 1
+    - time: 20.949
+      direction: 3
+    - time: 20.962
+      direction: 3
+    - time: 20.974
+      direction: 2
+    - time: 20.987
+      direction: 1
+    - time: 20.999
+      direction: 0
+    - time: 21.099
+      direction: 0
+    - time: 21.249
+      direction: 1
+    - time: 21.399
+      direction: 1
+    - time: 21.399
+      direction: 2
+    - time: 21.499
+      direction: 2
+    - time: 21.499
+      direction: 3
+    - time: 21.649
+      direction: 3
+    - time: 21.674
+      direction: 3
+    - time: 21.699
+      direction: 2
+    - time: 21.799
+      direction: 0
+    - time: 21.812
+      direction: 1
+    - time: 21.824
+      direction: 2
+    - time: 21.837
+      direction: 3
+    - time: 21.849
+      direction: 3
+    - time: 21.862
+      direction: 2
+    - time: 21.874
+      direction: 3
+    - time: 21.887
+      direction: 2
+    - time: 21.899
+      direction: 3
+    - time: 21.912
+      direction: 2
+    - time: 21.924
+      direction: 3
+    - time: 21.937
+      direction: 2
+    - time: 21.949
+      direction: 3
+    - time: 21.962
+      direction: 2
+    - time: 21.974
+      direction: 1
+    - time: 21.987
+      direction: 2
+    - time: 21.999
+      direction: 3
+    - time: 22.012
+      direction: 1
+    - time: 22.024
+      direction: 3
+    - time: 22.037
+      direction: 1
+    - time: 22.049
+      direction: 3
+    - time: 22.062
+      direction: 2
+    - time: 22.074
+      direction: 1
+    - time: 22.087
+      direction: 0
+    - time: 22.099
+      direction: 2
+    - time: 22.112
+      direction: 0
+    - time: 22.124
+      direction: 2
+    - time: 22.137
+      direction: 0
+    - time: 22.149
+      direction: 2
+    - time: 22.162
+      direction: 0
+    - time: 22.187
+      direction: 1
+    - time: 22.199
+      direction: 0
+    - time: 22.233
+      direction: 1
+    - time: 22.249
+      direction: 0
+    - time: 22.262
+      direction: 1
+    - time: 22.274
+      direction: 2
+    - time: 22.287
+      direction: 3
+    - time: 22.299
+      direction: 3
+    - time: 22.312
+      direction: 3
+    - time: 22.324
+      direction: 2
+    - time: 22.337
+      direction: 1
+    - time: 22.349
+      direction: 0
+    - time: 22.362
+      direction: 2
+    - time: 22.374
+      direction: 3
+    - time: 22.387
+      direction: 3
+    - time: 22.399
+      direction: 3
+    - time: 22.412
+      direction: 2
+    - time: 22.424
+      direction: 1
+    - time: 22.437
+      direction: 0
+    - time: 22.449
+      direction: 0
+    - time: 22.462
+      direction: 1
+    - time: 22.474
+      direction: 2
+    - time: 22.487
+      direction: 3
+    - time: 22.499
+      direction: 3
+    - time: 22.512
+      direction: 3
+    - time: 22.524
+      direction: 2
+    - time: 22.537
+      direction: 1
+    - time: 22.549
+      direction: 3
+    - time: 22.562
+      direction: 3
+    - time: 22.574
+      direction: 2
+    - time: 22.587
+      direction: 1
+    - time: 22.599
+      direction: 0
+    - time: 22.612
+      direction: 1
+    - time: 22.624
+      direction: 0
+    - time: 22.637
+      direction: 1
+    - time: 22.649
+      direction: 0
+    - time: 22.699
+      direction: 3
+    - time: 22.716
+      direction: 2
+    - time: 22.733
+      direction: 3
+    - time: 22.749
+      direction: 0
+    - time: 22.766
+      direction: 1
+    - time: 22.783
+      direction: 2
+    - time: 22.799
+      direction: 3
+    - time: 22.816
+      direction: 2
+    - time: 22.833
+      direction: 3
+    - time: 22.849
+      direction: 1
+    - time: 22.866
+      direction: 0
+    - time: 22.883
+      direction: 3
+    - time: 22.899
+      direction: 3
+    - time: 22.916
+      direction: 2
+    - time: 22.933
+      direction: 1
+    - time: 22.949
+      direction: 0
+    - time: 22.966
+      direction: 1
+    - time: 22.983
+      direction: 2
+    - time: 22.999
+      direction: 3
+    - time: 23.099
+      direction: 3
+    - time: 23.116
+      direction: 2
+    - time: 23.133
+      direction: 1
+    - time: 23.149
+      direction: 3
+    - time: 23.166
+      direction: 2
+    - time: 23.183
+      direction: 1
+    - time: 23.199
+      direction: 3
+    - time: 23.216
+      direction: 2
+    - time: 23.233
+      direction: 1
+    - time: 23.249
+      direction: 3
+    - time: 23.266
+      direction: 2
+    - time: 23.283
+      direction: 1
+    - time: 23.299
+      direction: 3
+    - time: 23.316
+      direction: 2
+    - time: 23.333
+      direction: 3
+    - time: 23.349
+      direction: 1
+    - time: 23.366
+      direction: 2
+    - time: 23.383
+      direction: 1
+    - time: 23.399
+      direction: 0
+    - time: 23.416
+      direction: 1
+    - time: 23.433
+      direction: 2
+    - time: 23.449
+      direction: 1
+    - time: 23.466
+      direction: 2
+    - time: 23.483
+      direction: 3
+    - time: 23.499
+      direction: 1
+    - time: 23.508
+      direction: 1
+    - time: 23.516
+      direction: 1
+    - time: 23.524
+      direction: 1
+    - time: 23.533
+      direction: 1
+    - time: 23.541
+      direction: 1
+    - time: 23.549
+      direction: 1
+    - time: 23.558
+      direction: 1
+    - time: 23.566
+      direction: 1
+    - time: 23.574
+      direction: 2
+    - time: 23.582
+      direction: 2
+    - time: 23.591
+      direction: 2
+    - time: 23.599
+      direction: 2
+    - time: 23.608
+      direction: 2
+    - time: 23.616
+      direction: 2
+    - time: 23.624
+      direction: 2
+    - time: 23.633
+      direction: 2
+    - time: 23.641
+      direction: 2
+    - time: 23.649
+      direction: 3
+    - time: 23.658
+      direction: 3
+    - time: 23.666
+      direction: 3
+    - time: 23.674
+      direction: 3
+    - time: 23.683
+      direction: 3
+    - time: 23.691
+      direction: 3
+    - time: 23.699
+      direction: 1
+    - time: 23.708
+      direction: 1
+    - time: 23.716
+      direction: 1
+    - time: 23.724
+      direction: 1
+    - time: 23.733
+      direction: 1
+    - time: 23.741
+      direction: 1
+    - time: 23.749
+      direction: 1
+    - time: 23.758
+      direction: 1
+    - time: 23.766
+      direction: 1
+    - time: 23.774
+      direction: 2
+    - time: 23.783
+      direction: 2
+    - time: 23.791
+      direction: 2
+    - time: 23.799
+      direction: 2
+    - time: 23.808
+      direction: 2
+    - time: 23.816
+      direction: 2
+    - time: 23.824
+      direction: 2
+    - time: 23.833
+      direction: 2
+    - time: 23.841
+      direction: 2
+    - time: 23.849
+      direction: 3
+    - time: 23.857
+      direction: 3
+    - time: 23.866
+      direction: 3
+    - time: 23.874
+      direction: 3
+    - time: 23.883
+      direction: 3
+    - time: 23.891
+      direction: 3
+    - time: 23.899
+      direction: 0
+    - time: 23.912
+      direction: 1
+    - time: 23.924
+      direction: 2
+    - time: 23.937
+      direction: 3
+    - time: 23.949
+      direction: 0
+    - time: 23.962
+      direction: 1
+    - time: 23.974
+      direction: 2
+    - time: 23.987
+      direction: 3
+    - time: 23.999
+      direction: 3
+    - time: 24.012
+      direction: 3
+    - time: 24.024
+      direction: 2
+    - time: 24.037
+      direction: 3
+    - time: 24.049
+      direction: 2
+    - time: 24.062
+      direction: 1
+    - time: 24.074
+      direction: 2
+    - time: 24.087
+      direction: 1
+    - time: 24.099
+      direction: 0
+    - time: 24.112
+      direction: 1
+    - time: 24.124
+      direction: 2
+    - time: 24.137
+      direction: 3
+    - time: 24.149
+      direction: 0
+    - time: 24.162
+      direction: 1
+    - time: 24.174
+      direction: 2
+    - time: 24.187
+      direction: 3
+    - time: 24.199
+      direction: 3
+    - time: 24.212
+      direction: 3
+    - time: 24.224
+      direction: 2
+    - time: 24.237
+      direction: 1
+    - time: 24.249
+      direction: 3
+    - time: 24.262
+      direction: 2
+    - time: 24.274
+      direction: 1
+    - time: 24.287
+      direction: 0
+    - time: 24.299
+      direction: 3
+    - time: 24.312
+      direction: 3
+    - time: 24.395
+      direction: 3
+    - time: 24.412
+      direction: 3
+    - time: 24.674
+      direction: 3
+    - time: 24.724
+      direction: 3
+    - time: 24.737
+      direction: 2
+    - time: 24.749
+      direction: 1
+    - time: 24.762
+      direction: 2
+    - time: 24.774
+      direction: 3
+    - time: 24.787
+      direction: 3
+    - time: 24.799
+      direction: 3
+    - time: 24.812
+      direction: 2
+    - time: 24.824
+      direction: 1
+    - time: 24.837
+      direction: 0
+    - time: 24.849
+      direction: 0
+    - time: 24.862
+      direction: 1
+    - time: 24.874
+      direction: 2
+    - time: 24.887
+      direction: 3
+    - time: 24.899
+      direction: 3
+    - time: 24.912
+      direction: 2
+    - time: 24.924
+      direction: 1
+    - time: 24.937
+      direction: 0
+    - time: 24.949
+      direction: 3
+    - time: 24.962
+      direction: 3
+    - time: 24.974
+      direction: 2
+    - time: 24.987
+      direction: 1
+    - time: 24.999
+      direction: 0
+    - time: 25.087
+      direction: 3
+    - time: 25.099
+      direction: 3
+    - time: 25.274
+      direction: 3
+    - time: 25.287
+      direction: 2
+    - time: 25.299
+      direction: 1
+    - time: 25.412
+      direction: 0
+    - time: 25.424
+      direction: 1
+    - time: 25.437
+      direction: 2
+    - time: 25.449
+      direction: 3
+    - time: 25.599
+      direction: 3
+    - time: 25.616
+      direction: 3
+    - time: 25.633
+      direction: 2
+    - time: 25.649
+      direction: 3
+    - time: 25.666
+      direction: 1
+    - time: 25.683
+      direction: 3
+    - time: 25.699
+      direction: 0
+    - time: 25.716
+      direction: 3
+    - time: 25.733
+      direction: 1
+    - time: 25.749
+      direction: 3
+    - time: 25.762
+      direction: 2
+    - time: 25.774
+      direction: 1
+    - time: 25.787
+      direction: 0
+    - time: 25.799
+      direction: 3
+    - time: 25.812
+      direction: 3
+    - time: 25.824
+      direction: 3
+    - time: 25.837
+      direction: 3
+    - time: 25.849
+      direction: 3
+    - time: 25.862
+      direction: 3
+    - time: 25.899
+      direction: 3
+    - time: 25.916
+      direction: 3
+    - time: 25.933
+      direction: 3
+    - time: 25.949
+      direction: 3
+    - time: 25.966
+      direction: 2
+    - time: 25.983
+      direction: 1
+    - time: 25.999
+      direction: 3
+    - time: 26.016
+      direction: 2
+    - time: 26.033
+      direction: 3
+    - time: 26.049
+      direction: 2
+    - time: 26.066
+      direction: 1
+    - time: 26.083
+      direction: 0
+    - time: 26.099
+      direction: 3
+    - time: 26.116
+      direction: 3
+    - time: 26.133
+      direction: 3
+    - time: 26.149
+      direction: 3
+    - time: 26.166
+      direction: 2
+    - time: 26.183
+      direction: 1
+    - time: 26.199
+      direction: 3
+    - time: 26.216
+      direction: 2
+    - time: 26.233
+      direction: 3
+    - time: 26.249
+      direction: 2
+    - time: 26.266
+      direction: 1
+    - time: 26.283
+      direction: 0
+    - time: 26.299
+      direction: 3
+    - time: 26.316
+      direction: 2
+    - time: 26.333
+      direction: 3
+    - time: 26.349
+      direction: 2
+    - time: 26.366
+      direction: 1
+    - time: 26.383
+      direction: 0
+    - time: 26.399
+      direction: 1
+    - time: 26.412
+      direction: 2
+    - time: 26.424
+      direction: 1
+    - time: 26.437
+      direction: 2
+    - time: 26.449
+      direction: 3
+    - time: 26.462
+      direction: 3
+    - time: 26.474
+      direction: 3
+    - time: 26.487
+      direction: 2
+    - time: 26.499
+      direction: 3
+    - time: 26.512
+      direction: 2
+    - time: 26.524
+      direction: 1
+    - time: 26.537
+      direction: 0
+    - time: 26.549
+      direction: 2
+    - time: 26.562
+      direction: 3
+    - time: 26.574
+      direction: 2
+    - time: 26.587
+      direction: 1
+    - time: 26.599
+      direction: 2
+    - time: 26.612
+      direction: 3
+    - time: 26.624
+      direction: 2
+    - time: 26.637
+      direction: 3
+    - time: 26.649
+      direction: 0
+    - time: 26.699
+      direction: 0
+    - time: 26.716
+      direction: 1
+    - time: 26.733
+      direction: 2
+    - time: 26.749
+      direction: 1
+    - time: 26.766
+      direction: 2
+    - time: 26.783
+      direction: 3
+    - time: 26.799
+      direction: 0
+    - time: 26.816
+      direction: 1
+    - time: 26.833
+      direction: 2
+    - time: 26.849
+      direction: 1
+    - time: 26.866
+      direction: 2
+    - time: 26.883
+      direction: 3
+    - time: 26.899
+      direction: 3
+    - time: 26.983
+      direction: 3
+    - time: 26.999
+      direction: 2
+    - time: 27.099
+      direction: 3
+    - time: 27.116
+      direction: 3
+    - time: 27.133
+      direction: 2
+    - time: 27.149
+      direction: 0
+    - time: 27.166
+      direction: 1
+    - time: 27.183
+      direction: 2
+    - time: 27.199
+      direction: 3
+    - time: 27.216
+      direction: 2
+    - time: 27.233
+      direction: 1
+    - time: 27.249
+      direction: 0
+    - time: 27.266
+      direction: 2
+    - time: 27.283
+      direction: 1
+    - time: 27.299
+      direction: 0
+    - time: 27.316
+      direction: 1
+    - time: 27.333
+      direction: 2
+    - time: 27.349
+      direction: 3
+    - time: 27.366
+      direction: 2
+    - time: 27.383
+      direction: 3
+    - time: 27.399
+      direction: 3
+    - time: 27.416
+      direction: 3
+    - time: 27.433
+      direction: 2
+    - time: 27.449
+      direction: 3
+    - time: 27.466
+      direction: 2
+    - time: 27.483
+      direction: 1
+    - time: 27.499
+      direction: 3
+    - time: 27.516
+      direction: 2
+    - time: 27.533
+      direction: 1
+    - time: 27.549
+      direction: 0
+    - time: 27.566
+      direction: 1
+    - time: 27.583
+      direction: 2
+    - time: 27.599
+      direction: 3
+    - time: 27.616
+      direction: 2
+    - time: 27.633
+      direction: 0
+    - time: 27.649
+      direction: 2
+    - time: 27.666
+      direction: 1
+    - time: 27.683
+      direction: 0
+    - time: 27.699
+      direction: 3
+    - time: 27.716
+      direction: 2
+    - time: 27.733
+      direction: 1
+    - time: 27.749
+      direction: 2
+    - time: 27.766
+      direction: 1
+    - time: 27.783
+      direction: 0
+    - time: 27.799
+      direction: 3
+    - time: 27.816
+      direction: 3
+    - time: 27.833
+      direction: 1
+    - time: 27.849
+      direction: 3
+    - time: 27.866
+      direction: 2
+    - time: 27.883
+      direction: 1
+    - time: 27.899
+      direction: 3
+    - time: 28.299
+      direction: 1
+    - time: 28.299
+      direction: 3
+    - time: 28.349
+      direction: 1
+    - time: 28.349
+      direction: 3
+    - time: 28.399
+      direction: 0
+    - time: 28.424
+      direction: 0
+    - time: 28.449
+      direction: 0
+    - time: 28.474
+      direction: 1
+    - time: 28.474
+      direction: 3
+    - time: 28.499
+      direction: 0
+    - time: 28.524
+      direction: 0
+    - time: 28.549
+      direction: 0
+    - time: 28.574
+      direction: 1
+    - time: 28.574
+      direction: 3
+    - time: 28.599
+      direction: 0
+    - time: 28.624
+      direction: 0
+    - time: 28.649
+      direction: 0
+    - time: 28.674
+      direction: 0
+    - time: 28.699
+      direction: 1
+    - time: 28.699
+      direction: 2
+    - time: 28.749
+      direction: 1
+    - time: 28.749
+      direction: 2
+    - time: 28.799
+      direction: 0
+    - time: 28.824
+      direction: 0
+    - time: 28.849
+      direction: 0
+    - time: 28.874
+      direction: 1
+    - time: 28.874
+      direction: 2
+    - time: 28.899
+      direction: 0
+    - time: 28.924
+      direction: 0
+    - time: 28.949
+      direction: 0
+    - time: 28.974
+      direction: 1
+    - time: 28.974
+      direction: 2
+    - time: 28.999
+      direction: 0
+    - time: 29.024
+      direction: 0
+    - time: 29.049
+      direction: 0
+    - time: 29.074
+      direction: 0
+    - time: 29.099
+      direction: 1
+    - time: 29.174
+      direction: 2
+    - time: 29.249
+      direction: 3
+    - time: 29.299
+      direction: 2
+    - time: 29.374
+      direction: 3
+    - time: 29.449
+      direction: 3
+    - time: 29.499
+      direction: 2
+    - time: 29.499
+      direction: 3
+    - time: 29.55
+      direction: 2
+    - time: 29.55
+      direction: 3
+    - time: 29.6
+      direction: 0
+    - time: 29.624
+      direction: 0
+    - time: 29.649
+      direction: 0
+    - time: 29.674
+      direction: 2
+    - time: 29.674
+      direction: 3
+    - time: 29.699
+      direction: 0
+    - time: 29.724
+      direction: 0
+    - time: 29.75
+      direction: 0
+    - time: 29.774
+      direction: 2
+    - time: 29.774
+      direction: 3
+    - time: 29.8
+      direction: 0
+    - time: 29.824
+      direction: 0
+    - time: 29.849
+      direction: 0
+    - time: 29.874
+      direction: 0
+    - time: 29.9
+      direction: 1
+    - time: 29.9
+      direction: 3
+    - time: 29.95
+      direction: 1
+    - time: 29.95
+      direction: 3
+    - time: 29.999
+      direction: 0
+    - time: 30.024
+      direction: 0
+    - time: 30.05
+      direction: 0
+    - time: 30.074
+      direction: 1
+    - time: 30.074
+      direction: 3
+    - time: 30.1
+      direction: 0
+    - time: 30.124
+      direction: 0
+    - time: 30.149
+      direction: 0
+    - time: 30.174
+      direction: 1
+    - time: 30.174
+      direction: 3
+    - time: 30.2
+      direction: 0
+    - time: 30.224
+      direction: 0
+    - time: 30.25
+      direction: 0
+    - time: 30.274
+      direction: 0
+    - time: 30.299
+      direction: 1
+    - time: 30.299
+      direction: 2
+    - time: 30.35
+      direction: 1
+    - time: 30.35
+      direction: 2
+    - time: 30.4
+      direction: 0
+    - time: 30.424
+      direction: 0
+    - time: 30.449
+      direction: 0
+    - time: 30.474
+      direction: 1
+    - time: 30.474
+      direction: 2
+    - time: 30.499
+      direction: 0
+    - time: 30.524
+      direction: 0
+    - time: 30.55
+      direction: 0
+    - time: 30.574
+      direction: 1
+    - time: 30.574
+      direction: 2
+    - time: 30.599
+      direction: 0
+    - time: 30.624
+      direction: 0
+    - time: 30.649
+      direction: 0
+    - time: 30.674
+      direction: 0
+    - time: 30.7
+      direction: 1
+    - time: 30.774
+      direction: 2
+    - time: 30.85
+      direction: 3
+    - time: 30.9
+      direction: 2
+    - time: 30.974
+      direction: 3
+    - time: 31.05
+      direction: 3
+    - time: 31.099
+      direction: 2
+    - time: 31.099
+      direction: 3
+    - time: 31.3
+      direction: 2
+    - time: 31.3
+      direction: 3
+    - time: 31.399
+      direction: 1
+    - time: 31.399
+      direction: 3
+    - time: 31.5
+      direction: 0
+    - time: 31.5
+      direction: 2
+    - time: 31.699
+      direction: 0
+    - time: 31.699
+      direction: 2
+    - time: 31.799
+      direction: 0
+    - time: 31.799
+      direction: 1
+    - time: 31.899
+      direction: 2
+    - time: 31.899
+      direction: 3
+    - time: 32.099
+      direction: 2
+    - time: 32.099
+      direction: 3
+    - time: 32.199
+      direction: 2
+    - time: 32.199
+      direction: 3
+    - time: 32.299
+      direction: 0
+    - time: 32.299
+      direction: 1
+    - time: 32.499
+      direction: 0
+    - time: 32.499
+      direction: 1
+    - time: 32.599
+      direction: 0
+    - time: 32.599
+      direction: 2
+    - time: 32.699
+      direction: 1
+    - time: 32.699
+      direction: 3
+    - time: 33.099
+      direction: 1
+    - time: 33.099
+      direction: 3
+    - time: 33.399
+      direction: 1
+    - time: 33.424
+      direction: 1
+    - time: 33.449
+      direction: 1
+    - time: 33.474
+      direction: 1
+    - time: 33.499
+      direction: 1
+    - time: 33.499
+      direction: 3
+    - time: 33.599
+      direction: 3
+    - time: 33.599
+      direction: 3
+    - time: 33.899
+      direction: 3
+    - time: 33.924
+      direction: 3
+    - time: 33.949
+      direction: 3
+    - time: 33.974
+      direction: 3
+    - time: 33.999
+      direction: 3
+    - time: 34.024
+      direction: 3
+    - time: 34.049
+      direction: 3
+    - time: 34.074
+      direction: 3
+    - time: 34.099
+      direction: 3
+    - time: 34.124
+      direction: 3
+    - time: 34.149
+      direction: 3
+    - time: 34.174
+      direction: 3
+    - time: 34.199
+      direction: 3
+    - time: 34.224
+      direction: 3
+    - time: 34.249
+      direction: 3
+    - time: 34.274
+      direction: 3
+    - time: 34.299
+      direction: 2
+    - time: 34.324
+      direction: 2
+    - time: 34.349
+      direction: 2
+    - time: 34.374
+      direction: 2
+    - time: 34.399
+      direction: 2
+    - time: 34.424
+      direction: 2
+    - time: 34.449
+      direction: 2
+    - time: 34.474
+      direction: 2
+    - time: 34.499
+      direction: 2
+    - time: 34.524
+      direction: 2
+    - time: 34.549
+      direction: 2
+    - time: 34.574
+      direction: 2
+    - time: 34.599
+      direction: 2
+    - time: 34.624
+      direction: 2
+    - time: 34.649
+      direction: 2
+    - time: 34.674
+      direction: 2
+    - time: 34.699
+      direction: 1
+    - time: 34.699
+      direction: 3
+    - time: 34.749
+      direction: 1
+    - time: 34.774
+      direction: 1
+    - time: 34.799
+      direction: 1
+    - time: 34.824
+      direction: 1
+    - time: 34.849
+      direction: 1
+    - time: 34.874
+      direction: 1
+    - time: 34.899
+      direction: 1
+    - time: 34.899
+      direction: 3
+    - time: 34.949
+      direction: 1
+    - time: 34.974
+      direction: 1
+    - time: 34.999
+      direction: 1
+    - time: 35.024
+      direction: 1
+    - time: 35.049
+      direction: 1
+    - time: 35.074
+      direction: 1
+    - time: 35.099
+      direction: 1
+    - time: 35.124
+      direction: 1
+    - time: 35.149
+      direction: 1
+    - time: 35.174
+      direction: 1
+    - time: 35.199
+      direction: 2
+    - time: 35.199
+      direction: 3
+    - time: 35.499
+      direction: 1
+    - time: 35.499
+      direction: 2
+    - time: 35.549
+      direction: 1
+    - time: 35.574
+      direction: 1
+    - time: 35.599
+      direction: 1
+    - time: 35.624
+      direction: 1
+    - time: 35.649
+      direction: 1
+    - time: 35.674
+      direction: 1
+    - time: 35.699
+      direction: 1
+    - time: 35.724
+      direction: 1
+    - time: 35.749
+      direction: 1
+    - time: 35.774
+      direction: 1
+    - time: 35.799
+      direction: 1
+    - time: 35.824
+      direction: 1
+    - time: 35.849
+      direction: 1
+    - time: 35.874
+      direction: 1
+    - time: 35.899
+      direction: 0
+    - time: 35.899
+      direction: 1
+    - time: 35.949
+      direction: 0
+    - time: 35.974
+      direction: 0
+    - time: 35.999
+      direction: 0
+    - time: 36.024
+      direction: 0
+    - time: 36.049
+      direction: 0
+    - time: 36.074
+      direction: 0
+    - time: 36.099
+      direction: 2
+    - time: 36.099
+      direction: 3
+    - time: 36.149
+      direction: 2
+    - time: 36.174
+      direction: 2
+    - time: 36.199
+      direction: 2
+    - time: 36.224
+      direction: 2
+    - time: 36.249
+      direction: 2
+    - time: 36.274
+      direction: 2
+    - time: 36.299
+      direction: 1
+    - time: 36.299
+      direction: 2
+    - time: 36.349
+      direction: 1
+    - time: 36.374
+      direction: 1
+    - time: 36.399
+      direction: 1
+    - time: 36.424
+      direction: 1
+    - time: 36.449
+      direction: 1
+    - time: 36.474
+      direction: 1
+    - time: 36.499
+      direction: 0
+    - time: 36.516
+      direction: 1
+    - time: 36.533
+      direction: 2
+    - time: 36.549
+      direction: 1
+    - time: 36.566
+      direction: 2
+    - time: 36.583
+      direction: 3
+    - time: 36.599
+      direction: 0
+    - time: 36.616
+      direction: 1
+    - time: 36.633
+      direction: 2
+    - time: 36.649
+      direction: 1
+    - time: 36.666
+      direction: 2
+    - time: 36.683
+      direction: 3
+    - time: 36.699
+      direction: 3
+    - time: 36.699
+      direction: 3
+    - time: 36.749
+      direction: 3
+    - time: 36.766
+      direction: 3
+    - time: 36.783
+      direction: 3
+    - time: 36.799
+      direction: 3
+    - time: 36.816
+      direction: 3
+    - time: 36.833
+      direction: 3
+    - time: 36.849
+      direction: 3
+    - time: 36.866
+      direction: 3
+    - time: 36.883
+      direction: 3
+    - time: 36.899
+      direction: 3
+    - time: 36.916
+      direction: 3
+    - time: 36.933
+      direction: 3
+    - time: 36.949
+      direction: 3
+    - time: 36.966
+      direction: 3
+    - time: 36.983
+      direction: 3
+    - time: 36.999
+      direction: 3
+    - time: 37.016
+      direction: 3
+    - time: 37.033
+      direction: 3
+    - time: 37.049
+      direction: 3
+    - time: 37.066
+      direction: 3
+    - time: 37.083
+      direction: 3
+    - time: 37.099
+      direction: 2
+    - time: 37.116
+      direction: 2
+    - time: 37.133
+      direction: 2
+    - time: 37.149
+      direction: 2
+    - time: 37.166
+      direction: 2
+    - time: 37.183
+      direction: 2
+    - time: 37.199
+      direction: 2
+    - time: 37.216
+      direction: 2
+    - time: 37.232
+      direction: 2
+    - time: 37.249
+      direction: 2
+    - time: 37.266
+      direction: 2
+    - time: 37.283
+      direction: 2
+    - time: 37.299
+      direction: 2
+    - time: 37.316
+      direction: 2
+    - time: 37.333
+      direction: 2
+    - time: 37.349
+      direction: 2
+    - time: 37.366
+      direction: 2
+    - time: 37.382
+      direction: 2
+    - time: 37.399
+      direction: 2
+    - time: 37.416
+      direction: 2
+    - time: 37.433
+      direction: 2
+    - time: 37.449
+      direction: 2
+    - time: 37.466
+      direction: 2
+    - time: 37.483
+      direction: 2
+    - time: 37.499
+      direction: 1
+    - time: 37.516
+      direction: 1
+    - time: 37.533
+      direction: 1
+    - time: 37.549
+      direction: 1
+    - time: 37.566
+      direction: 1
+    - time: 37.583
+      direction: 1
+    - time: 37.599
+      direction: 1
+    - time: 37.616
+      direction: 1
+    - time: 37.632
+      direction: 1
+    - time: 37.649
+      direction: 1
+    - time: 37.666
+      direction: 1
+    - time: 37.683
+      direction: 1
+    - time: 37.699
+      direction: 1
+    - time: 37.716
+      direction: 1
+    - time: 37.733
+      direction: 1
+    - time: 37.749
+      direction: 1
+    - time: 37.766
+      direction: 1
+    - time: 37.782
+      direction: 1
+    - time: 37.799
+      direction: 1
+    - time: 37.816
+      direction: 1
+    - time: 37.833
+      direction: 1
+    - time: 37.849
+      direction: 1
+    - time: 37.866
+      direction: 1
+    - time: 37.883
+      direction: 1
+    - time: 37.899
+      direction: 0
+    - time: 37.916
+      direction: 0
+    - time: 37.933
+      direction: 0
+    - time: 37.949
+      direction: 0
+    - time: 37.966
+      direction: 0
+    - time: 37.983
+      direction: 0
+    - time: 37.999
+      direction: 0
+    - time: 38.016
+      direction: 0
+    - time: 38.032
+      direction: 0
+    - time: 38.049
+      direction: 0
+    - time: 38.066
+      direction: 0
+    - time: 38.083
+      direction: 0
+    - time: 38.099
+      direction: 0
+    - time: 38.116
+      direction: 0
+    - time: 38.133
+      direction: 0
+    - time: 38.149
+      direction: 0
+    - time: 38.166
+      direction: 0
+    - time: 38.183
+      direction: 0
+    - time: 38.199
+      direction: 0
+    - time: 38.216
+      direction: 0
+    - time: 38.233
+      direction: 0
+    - time: 38.249
+      direction: 0
+    - time: 38.266
+      direction: 0
+    - time: 38.283
+      direction: 0
+    - time: 38.299
+      direction: 0
+    - time: 38.316
+      direction: 0
+    - time: 38.333
+      direction: 0
+    - time: 38.349
+      direction: 0
+    - time: 38.366
+      direction: 0
+    - time: 38.383
+      direction: 0
+    - time: 38.399
+      direction: 2
+    - time: 38.399
+      direction: 3
+    - time: 38.499
+      direction: 2
+    - time: 38.499
+      direction: 3
+    - time: 38.599
+      direction: 2
+    - time: 38.599
+      direction: 3
+    - time: 38.699
+      direction: 1
+    - time: 38.699
+      direction: 2
+    - time: 38.749
+      direction: 1
+    - time: 38.766
+      direction: 1
+    - time: 38.783
+      direction: 1
+    - time: 38.799
+      direction: 1
+    - time: 38.816
+      direction: 1
+    - time: 38.832
+      direction: 1
+    - time: 38.849
+      direction: 1
+    - time: 38.866
+      direction: 1
+    - time: 38.883
+      direction: 1
+    - time: 38.899
+      direction: 1
+    - time: 38.916
+      direction: 1
+    - time: 38.933
+      direction: 1
+    - time: 38.949
+      direction: 1
+    - time: 38.966
+      direction: 1
+    - time: 38.982
+      direction: 1
+    - time: 38.999
+      direction: 1
+    - time: 39.016
+      direction: 1
+    - time: 39.033
+      direction: 1
+    - time: 39.049
+      direction: 1
+    - time: 39.066
+      direction: 1
+    - time: 39.083
+      direction: 1
+    - time: 39.099
+      direction: 0
+    - time: 39.099
+      direction: 1
+    - time: 39.299
+      direction: 2
+    - time: 39.299
+      direction: 3
+    - time: 39.499
+      direction: 1
+    - time: 39.499
+      direction: 2
+    - time: 39.549
+      direction: 1
+    - time: 39.566
+      direction: 1
+    - time: 39.583
+      direction: 1
+    - time: 39.599
+      direction: 1
+    - time: 39.616
+      direction: 1
+    - time: 39.633
+      direction: 1
+    - time: 39.649
+      direction: 1
+    - time: 39.666
+      direction: 1
+    - time: 39.682
+      direction: 1
+    - time: 39.699
+      direction: 1
+    - time: 39.716
+      direction: 1
+    - time: 39.733
+      direction: 1
+    - time: 39.749
+      direction: 1
+    - time: 39.766
+      direction: 1
+    - time: 39.783
+      direction: 1
+    - time: 39.799
+      direction: 1
+    - time: 39.816
+      direction: 1
+    - time: 39.832
+      direction: 1
+    - time: 39.849
+      direction: 1
+    - time: 39.866
+      direction: 1
+    - time: 39.883
+      direction: 1
+    - time: 39.899
+      direction: 0
+    - time: 39.899
+      direction: 1
+    - time: 40.099
+      direction: 2
+    - time: 40.099
+      direction: 3
+    - time: 40.299
+      direction: 1
+    - time: 40.299
+      direction: 2
+    - time: 40.349
+      direction: 1
+    - time: 40.366
+      direction: 1
+    - time: 40.383
+      direction: 1
+    - time: 40.399
+      direction: 1
+    - time: 40.416
+      direction: 1
+    - time: 40.433
+      direction: 1
+    - time: 40.449
+      direction: 1
+    - time: 40.466
+      direction: 1
+    - time: 40.483
+      direction: 1
+    - time: 40.499
+      direction: 1
+    - time: 40.516
+      direction: 1
+    - time: 40.533
+      direction: 1
+    - time: 40.549
+      direction: 1
+    - time: 40.566
+      direction: 1
+    - time: 40.583
+      direction: 1
+    - time: 40.599
+      direction: 1
+    - time: 40.616
+      direction: 1
+    - time: 40.633
+      direction: 1
+    - time: 40.649
+      direction: 1
+    - time: 40.666
+      direction: 1
+    - time: 40.683
+      direction: 1
+    - time: 40.699
+      direction: 0
+    - time: 40.699
+      direction: 1
+    - time: 40.749
+      direction: 0
+    - time: 40.766
+      direction: 0
+    - time: 40.783
+      direction: 0
+    - time: 40.799
+      direction: 0
+    - time: 40.799
+      direction: 1
+    - time: 40.849
+      direction: 0
+    - time: 40.866
+      direction: 0
+    - time: 40.883
+      direction: 0
+    - time: 40.899
+      direction: 2
+    - time: 40.899
+      direction: 3
+    - time: 40.949
+      direction: 2
+    - time: 40.966
+      direction: 2
+    - time: 40.983
+      direction: 2
+    - time: 40.999
+      direction: 2
+    - time: 40.999
+      direction: 3
+    - time: 41.049
+      direction: 2
+    - time: 41.066
+      direction: 2
+    - time: 41.083
+      direction: 2
+    - time: 41.099
+      direction: 3
+    - time: 41.099
+      direction: 3
+    - time: 41.149
+      direction: 3
+    - time: 41.166
+      direction: 3
+    - time: 41.183
+      direction: 3
+    - time: 41.199
+      direction: 3
+    - time: 41.199
+      direction: 3
+    - time: 41.249
+      direction: 3
+    - time: 41.266
+      direction: 3
+    - time: 41.283
+      direction: 3
+    - time: 41.299
+      direction: 1
+    - time: 41.299
+      direction: 2
+    - time: 41.349
+      direction: 1
+    - time: 41.366
+      direction: 1
+    - time: 41.383
+      direction: 1
+    - time: 41.399
+      direction: 1
+    - time: 41.399
+      direction: 2
+    - time: 41.449
+      direction: 1
+    - time: 41.466
+      direction: 1
+    - time: 41.483
+      direction: 1
+    - time: 41.499
+      direction: 0
+    - time: 41.499
+      direction: 2
+    - time: 41.549
+      direction: 0
+    - time: 41.566
+      direction: 0
+    - time: 41.583
+      direction: 0
+    - time: 41.599
+      direction: 0
+    - time: 41.599
+      direction: 2
+    - time: 41.649
+      direction: 0
+    - time: 41.666
+      direction: 0
+    - time: 41.683
+      direction: 0
+    - time: 41.699
+      direction: 3
+    - time: 41.699
+      direction: 3
+    - time: 41.749
+      direction: 3
+    - time: 41.766
+      direction: 3
+    - time: 41.783
+      direction: 3
+    - time: 41.799
+      direction: 3
+    - time: 41.799
+      direction: 3
+    - time: 41.849
+      direction: 3
+    - time: 41.866
+      direction: 3
+    - time: 41.883
+      direction: 3
+    - time: 41.899
+      direction: 2
+    - time: 41.924
+      direction: 0
+    - time: 41.949
+      direction: 2
+    - time: 41.974
+      direction: 0
+    - time: 41.999
+      direction: 2
+    - time: 42.024
+      direction: 3
+    - time: 42.049
+      direction: 2
+    - time: 42.074
+      direction: 1
+    - time: 42.124
+      direction: 1
+    - time: 42.174
+      direction: 0
+    - time: 42.199
+      direction: 1
+    - time: 42.224
+      direction: 2
+    - time: 42.249
+      direction: 2
+    - time: 42.274
+      direction: 0
+    - time: 42.299
+      direction: 2
+    - time: 42.324
+      direction: 0
+    - time: 42.349
+      direction: 2
+    - time: 42.374
+      direction: 3
+    - time: 42.399
+      direction: 2
+    - time: 42.424
+      direction: 1
+  audioClip: {fileID: 8300000, guid: 275cafa764b3241499c2a968eecc7e91, type: 3}
+  notes: []
